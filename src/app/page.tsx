@@ -12,9 +12,11 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main className="flex min-h-screen p-24">
+      <main className="flex min-h-screen p-8 md:p-24">
         <div className="z-10 w-full flex flex-col items-center justify-between">
-          <h1 className="font-primary text-6xl">Gashu-Group</h1>
+          <h1 className="font-primary text-5xl md:text-6xl w-full text-center">
+            Gashu-Group
+          </h1>
           <p className="font-primary text-xl">
             We&apos;re no longer open. But thank you for visiting.
           </p>
